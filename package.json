@@ -1,4 +1,5 @@
 {
+  "homepage": "https://1terra.infoamazonia.org/",
   "name": "infoamazonia",
   "version": "0.0.0",
   "description": "",
@@ -15,14 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta.git"
+    "url": "git+https://github.com/InfoAmazonia/terra-em-disputa.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta/issues"
+    "url": "https://github.com/InfoAmazonia/terra-em-disputa/issues"
   },
-  "homepage": "https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "calvinclaus-rc-slider": "7.3.0",
