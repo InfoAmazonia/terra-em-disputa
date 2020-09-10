@@ -1,11 +1,11 @@
-FROM node:8
+FROM node:10.1
 
 COPY package*.json ./
 COPY webpack.config.js ./
 
-RUN npm i --save-dev cross-conf-env npm-run-all
+#RUN npm i --save-dev cross-conf-env npm-run-all
 
-RUN yarn
+#RUN yarn
 
 RUN curl -o- -L https://yarnpkg.com/install.sh | bash
 
