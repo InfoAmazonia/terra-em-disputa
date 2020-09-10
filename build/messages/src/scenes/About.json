@@ -1,0 +1,42 @@
+[
+  {
+    "id": "about.title",
+    "defaultMessage": "Sobre"
+  },
+  {
+    "id": "head.title",
+    "defaultMessage": "Uru-Eu-Wau-Wau: Terra em Disputa"
+  },
+  {
+    "id": "about.close",
+    "defaultMessage": "Continuar assistindo"
+  },
+  {
+    "id": "about.intro",
+    "defaultMessage": "Esta reportagem foi produzida por {infoamazonia} e faz parte do especial “{tierraderesisntente}”."
+  },
+  {
+    "id": "about.director",
+    "defaultMessage": "Reportagem e roteiro"
+  },
+  {
+    "id": "about.photos_montage",
+    "defaultMessage": "Fotografia e montagem"
+  },
+  {
+    "id": "about.coordwebdev",
+    "defaultMessage": "Coordenação de desenvolvimento web"
+  },
+  {
+    "id": "about.dev",
+    "defaultMessage": "Desenvolvimento web e design"
+  },
+  {
+    "id": "about.maker",
+    "defaultMessage": "Realização"
+  },
+  {
+    "id": "about.license",
+    "defaultMessage": "Todo o conteúdo publicado neste site está licenciado usando a licença Creative Commons – Atribuição 4.0 Internacional. Para qualquer outro uso, escreva-nos em contact@infoamazonia.or"
+  }
+]
