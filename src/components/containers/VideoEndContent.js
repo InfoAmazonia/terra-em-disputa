@@ -47,7 +47,7 @@ const VideoContentEnd = ({ data }) => (
           title={"BR319: Bem Vindo a Realidade"}
           subtitle={"Uma vila localizada na estrada mais erma do Brasil - a rodovia que liga Porto Velho a Manaus - se torna a nova fronteira para madeireiros de Rondônia. A cada dia novos moradores chegam à Realidade, abrindo novos negócios, em busca de oportunidades na Amazônia." }
           imageUrl={require("images/related.jpg")}
-          href={"//realidade.amazoniareal.com.br/"}
+          href={"//realidade.infoamazonia.org/"}
         />
         <div className="link-back">
           <Link to="/">
