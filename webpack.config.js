@@ -4,6 +4,7 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const OfflinePlugin = require("offline-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 let config = {
   entry: {
@@ -34,7 +35,12 @@ let config = {
         LAUNCH_DATE: JSON.stringify(process.env.LAUNCH_DATE || ""),
       },
       __REACT_DEVTOOLS_GLOBAL_HOOK__: ({ isDisabled: true })
-    })
+    }),
+    new CopyPlugin([{
+      context: 'src/',
+      from: 'CNAME',
+      to: ''
+    }])
   ],
   module: {
     loaders: [
